@@ -10,6 +10,17 @@ Older technologies was removed like support for CORBA. SOAP is also not evolved 
 You can create simple Jakarta EE App with the following tutorials. This sample project is created by Maven and Gradle.
 
 ## Demo
+### Maven Project
+
+```shell
+$ mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstar
+
+Define value for property 'groupId': com.google.shinyay
+Define value for property 'artifactId': jakarta-ee-hello-world
+Define value for property 'version' 1.0-SNAPSHOT: :
+Define value for property 'package' com.google.shinyay: :
+```
+### Gradle Project
 
 ## Features
 
