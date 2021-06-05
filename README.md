@@ -3,6 +3,9 @@
 **Jakarta EE** is a set of specifications that enables the world wide community of java developers to work on cloud native java enterprise applications. Formerly it is knows as `Java Platform, Enterprise Edition (Java EE)`
 
 ## Description
+Jakarta EE 9 was released at the end of 2020. 
+This relase changed the package names that `javax` changed to `jakarta`
+Older technologies was removed like support for CORBA. SOAP is also not evolved anymore.
 
 ## Demo
 
