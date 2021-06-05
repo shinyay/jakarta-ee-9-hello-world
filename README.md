@@ -7,6 +7,8 @@ Jakarta EE 9 was released at the end of 2020.
 This relase changed the package names that `javax` changed to `jakarta`
 Older technologies was removed like support for CORBA. SOAP is also not evolved anymore.
 
+You can create simple Jakarta EE App with the following tutorials. This sample project is created by Maven and Gradle.
+
 ## Demo
 
 ## Features
