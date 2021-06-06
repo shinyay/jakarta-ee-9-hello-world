@@ -32,7 +32,6 @@ $ ./mvnw clean package
 ```
 
 ### Gradle Project
-
 ```
 $ mkdir jakarta-ee-hello-world
 $ gradle init -p jakarta-ee-hello-world \
@@ -41,6 +40,11 @@ $ gradle init -p jakarta-ee-hello-world \
     --test-framework junit-jupiter \
     --project-name jakarta-ee-hello-world \
     --package com.google.shinyay
+```
+
+#### Package Application with Gradle
+```
+$ ./gradlew clean assemble -x test --build-cache --quiet
 ```
 
 
