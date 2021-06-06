@@ -25,6 +25,22 @@ Define value for property 'package' com.google.shinyay: :
 ```
 $ mvn -N io.takari:maven:wrapper
 ```
+
+#### Servlert Application
+```java
+@WebServlet("/hello")
+public class App extends HttpServlet
+{
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        res.getOutputStream().println("Hello, Jakarta");
+    }
+}
+```
+
+- `jakarta.servlet.annotation.WebServlet`
+  - It allows you to implement methods like `doGet()` and `doPost()` to respond to the specific HTTP Methods that are sent to the application
+
 ### Gradle Project
 
 ## Features
