@@ -20,6 +20,11 @@ Define value for property 'artifactId': jakarta-ee-hello-world
 Define value for property 'version' 1.0-SNAPSHOT: :
 Define value for property 'package' com.google.shinyay: :
 ```
+
+#### Maven Wrapper
+```
+$ mvn -N io.takari:maven:wrapper
+```
 ### Gradle Project
 
 ## Features
