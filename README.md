@@ -38,8 +38,10 @@ public class App extends HttpServlet
 }
 ```
 
-- `jakarta.servlet.annotation.WebServlet`
+- `jakarta.servlet.http.HttpServlet`
   - It allows you to implement methods like `doGet()` and `doPost()` to respond to the specific HTTP Methods that are sent to the application
+- `jakarta.servlet.annotation.WebServlet` `@WebServlet`
+  - It defines the URL `http://localhost:8080/<root>/<@WebServlet-value>`
 
 ### Gradle Project
 
