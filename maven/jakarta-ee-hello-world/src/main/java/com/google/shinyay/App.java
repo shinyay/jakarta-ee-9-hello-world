@@ -1,13 +1,10 @@
 package com.google.shinyay;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+
+@WebServlet("/hello")
+public class App extends HttpServlet
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+    
 }
