@@ -26,7 +26,25 @@ Define value for property 'package' com.google.shinyay: :
 $ mvn -N io.takari:maven:wrapper
 ```
 
-#### Servlert Application
+#### Package Application with Maven
+```
+$ ./mvnw clean package
+```
+
+### Gradle Project
+
+```
+$ mkdir jakarta-ee-hello-world
+$ gradle init -p jakarta-ee-hello-world \
+    --type java-application \
+    --dsl groovy \
+    --test-framework junit-jupiter \
+    --project-name jakarta-ee-hello-world \
+    --package com.google.shinyay
+```
+
+
+### Servlert Application
 ```java
 @WebServlet("/hello")
 public class App extends HttpServlet
@@ -42,8 +60,6 @@ public class App extends HttpServlet
   - It allows you to implement methods like `doGet()` and `doPost()` to respond to the specific HTTP Methods that are sent to the application
 - `jakarta.servlet.annotation.WebServlet` `@WebServlet`
   - It defines the URL `http://localhost:8080/<root>/<@WebServlet-value>`
-
-### Gradle Project
 
 ## Features
 
